@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diaporama de photos</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1>Diaporama de photos</h1>
+    <nav>
+      <button id="toggle-carousel" type="button" class="fa fa-play"></button>
+      <button id="previous-photo" type="button" class="fa fa-backward"></button>
+      <button id="next-photo" type="button" class="fa fa-forward"></button>
+      <button id="random-photo" type="button" class="fa fa-random"></button>
+      <button
+        id="toggle-fullscreen"
+        type="button"
+        class="fa fa-expand"
+      ></button>
+    </nav>
+
+    <section class="diaporama">
+      <img src="./images/ara.jpg" alt="Ara" class="visible" />
+      <img src="./images/dolphin.jpg" alt="Dauphin" />
+      <img src="./images/elephant.jpg" alt="Eléphant" />
+      <img src="./images/tiger.jpg" alt="Tigre" />
+    </section>
+    <section class="snapshot"></section>
+    <script
+      src="https://kit.fontawesome.com/37b410a8ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
